@@ -243,3 +243,11 @@
 	<stdio.h>
 	<math.h>
 
+1493403686 source:c:\users\chaze exodus\documents\github\infograbot\v.0.9.9\main.cpp
+	<windows.h>
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+

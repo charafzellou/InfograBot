@@ -219,3 +219,8 @@
 	<stddef.h>
 	<GL/gl.h>
 
+1494575885 source:c:\users\chaze exodus\documents\github\infograbot\v.1\main.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
