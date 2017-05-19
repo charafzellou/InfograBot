@@ -47,6 +47,8 @@ Robot::Robot(float x, float y, float z)
 
 void Robot::Draw()
 {
+
+    gluCylinder(gluNewQuadric(), 1.0, 1.0, 1.0, 54, 54);
     /*
     glPushMatrix();
         glRotatef(90, 1.0, 0.0, 0.0);
