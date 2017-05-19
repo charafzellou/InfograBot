@@ -1,0 +1,55 @@
+# depslib dependency file v1.0
+1495160364 source:c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\src\block.cpp
+	"Block.h"
+
+1495160346 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\block.h
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+
+1495160356 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1495160376 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\soil.h
+
+1495201407 source:c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\src\camera.cpp
+	"Camera.h"
+	<math.h>
+
+1495160348 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\camera.h
+
+1495201227 source:c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\src\main.cpp
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+	"Camera.h"
+	"Map.h"
+	"Robot.h"
+
+1495160360 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\map.h
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+	"Camera.h"
+
+1495200819 c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\include\robot.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+
+1495202543 source:c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\src\robot.cpp
+	"Robot.h"
+
+1495202626 source:c:\users\chaze exodus\desktop\studies\esgi2\infographie 2\_project\src\map.cpp
+	"Map.h"
+	"Block.h"
+	"Robot.h"
+
