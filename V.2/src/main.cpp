@@ -8,14 +8,27 @@
 
 #include "Camera.h"
 #include "Map.h"
-
+#include "Robot.h"
 
 // Objet Camera
 Camera *cam = new Camera();
 // Objet Scène
 Map *m = new Map();
+Robot *r = new Robot(1.0f,1.0f,1.0f);
 
 
+
+void update(int value)
+{
+    r->RotationAvBrasGauche();
+    r->RotationAvBrasDroit();
+
+    r->RotationAvJambeGauche();
+    r->RotationAvJambeDroit();
+
+    glutPostRedisplay();
+    glutTimerFunc(1,update, 0);
+}
 
 /** GESTION FENETRE **/
 void reshapeWindow(int w, int h)
@@ -146,6 +159,7 @@ void renderScene(void)
 
     m->DrawGround();
     m->DrawSkybox(cam);
+    r->Draw();
     glutSwapBuffers();
 }
 
@@ -186,7 +200,7 @@ int main(int argc, char **argv)
     /** INIT GL STATES **/
     glEnable(GL_DEPTH_TEST);
     glEnable(GL_TEXTURE_2D);
-
+    glutTimerFunc (1,&update, 0);
     glutMainLoop();
 
     return (1);

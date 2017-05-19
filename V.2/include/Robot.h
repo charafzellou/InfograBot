@@ -6,7 +6,12 @@
 #include <GL/glut.h>
 #endif
 
-#include <stdlib.h>
+#include<stdlib.h>
+#include<stdio.h>
+#include<math.h>
+#define PI 3.14
+#define TRUE 1
+#define FALSE 0
 
 class Robot
 {
@@ -14,6 +19,10 @@ class Robot
         Robot();
         Robot(float x, float y, float z);
         void Draw();
+        void RotationAvBrasGauche();
+        void RotationAvBrasDroit();
+        void RotationAvJambeGauche();
+        void RotationAvJambeDroit();
 
         double angleRotationBrasGauche;
         double angleRotationBrasDroit;

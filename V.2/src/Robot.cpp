@@ -196,3 +196,53 @@ void Robot::Draw()
             glPopMatrix();
     glPopMatrix();
 }
+void Robot::RotationAvBrasGauche()
+{
+    if(angleAvBrasGauche > 181){
+        angleRotationBrasGauche = -0.05;
+        angleAvBrasGauche = 180;
+    }
+    if(angleAvBrasGauche < 45){
+        angleRotationBrasGauche = 0.05;
+        angleAvBrasGauche = 46;
+    }
+    angleAvBrasGauche += angleRotationBrasGauche;
+}
+void Robot::RotationAvBrasDroit()
+{
+    if(angleAvBrasDroit < 180){
+        angleRotationBrasDroit = 0.05;
+        angleAvBrasDroit = 181;
+    }
+    if(angleAvBrasDroit > 315){
+        angleRotationBrasDroit = -0.05;
+        angleAvBrasDroit = 314;
+    }
+    angleAvBrasDroit += angleRotationBrasDroit;
+}
+void Robot::RotationAvJambeGauche()
+{
+    if(angleAvJambeGauche > 1){
+        angleRotationJambeGauche = -0.05;
+        angleAvJambeGauche = 0;
+    }
+    if(angleAvJambeGauche < -60){
+        angleRotationJambeGauche = 0.05;
+        angleAvJambeGauche = -59;
+    }
+    angleAvJambeGauche += angleRotationJambeGauche;
+}
+void Robot::RotationAvJambeDroit()
+{
+    if(angleAvJambeDroit > 1){
+        angleRotationJambeDroit = -0.05;
+        angleAvJambeDroit = 0;
+    }
+    if(angleAvJambeDroit < -60){
+        angleRotationJambeDroit = 0.05;
+        angleAvJambeDroit = -59;
+    }
+    angleAvJambeDroit += angleRotationJambeDroit;
+}
+
+
