@@ -226,3 +226,54 @@
 	<GL/glut.h>
 	<stdlib.h>
 
+1495160364 source:c:\users\chaze exodus\documents\github\infograbot\v.2\src\block.cpp
+	"Block.h"
+
+1495160346 c:\users\chaze exodus\documents\github\infograbot\v.2\include\block.h
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+
+1495160356 c:\users\chaze exodus\documents\github\infograbot\v.2\include\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1495160376 c:\users\chaze exodus\documents\github\infograbot\v.2\include\soil.h
+
+1495160366 source:c:\users\chaze exodus\documents\github\infograbot\v.2\src\camera.cpp
+	"Camera.h"
+	<math.h>
+
+1495160348 c:\users\chaze exodus\documents\github\infograbot\v.2\include\camera.h
+
+1495160368 source:c:\users\chaze exodus\documents\github\infograbot\v.2\src\main.cpp
+	<stdlib.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+	"Camera.h"
+	"Map.h"
+
+1495160360 c:\users\chaze exodus\documents\github\infograbot\v.2\include\map.h
+	<GL/gl.h>
+	<GL/glu.h>
+	"glut.h"
+	"SOIL.h"
+	"Camera.h"
+
+1495160370 source:c:\users\chaze exodus\documents\github\infograbot\v.2\src\map.cpp
+	"Map.h"
+	"Block.h"
+	"Robot.h"
+
+1495160362 c:\users\chaze exodus\documents\github\infograbot\v.2\include\robot.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<stdlib.h>
+
+1495160372 source:c:\users\chaze exodus\documents\github\infograbot\v.2\src\robot.cpp
+	"Robot.h"
+
